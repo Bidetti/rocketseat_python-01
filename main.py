@@ -121,6 +121,7 @@ def main():
         elif comando == '6':
             agenda.lista_favoritos()
         elif comando == '7':
+            agenda.lista_contatos()
             nome = input('Digite o nome do contato que deseja remover: ')
             agenda.remove_contato(nome)
         elif comando == '8':
